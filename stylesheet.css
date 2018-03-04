@@ -1,0 +1,64 @@
+/*
+<label>
+{
+	//code
+}
+*/
+*
+{
+background-color: pink;
+}	
+
+h1
+{
+	font-family: "Comic Sans MS";
+	font-size:60px;
+	position: relative;
+	left:30%;
+	top:-10px;
+	padding-left:5%;
+	margin-right:60%;
+	background: none;
+
+
+}
+
+img
+{
+	width:40%;
+	height:40%;
+	position: relative;
+	left:30%;
+	background:none;
+}
+
+h2
+{
+	font-family: "Comic Sans MS";
+	font-size:20px;
+	position: relative;
+	left: 20%;
+	right:20%;
+}
+a
+{
+	font-family: "Comic Sans MS";
+	font-size:20px;
+	position: relative;
+	left: 20%;
+	right:20%;
+}
+
+p
+{
+	font-family: "Comic Sans MS";
+	font-size:20px;
+	position: relative;
+}
+
+li
+{
+	font-family: "Comic Sans MS";
+	font-size:20px;
+	position: relative;
+}
