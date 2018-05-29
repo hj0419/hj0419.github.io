@@ -1,20 +1,204 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>
-		Hyegin Cho
-	</title>
-	<link rel="stylesheet" type="text/css" href="./stylesheet.css">
+  <head>
+    <title>
+      Hyegin Cho
+    </title>
+    <style>
+      #header{
+        background: black;
+        color: white;
+        overflow: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+      .leftMenu{
+        float: left;
+        display: inline-block;
+        background: black;
+      }
+      .leftMenu ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .leftMenu ul li{
+        display: inline-block;
+        padding: 20px;
+      }
+      .leftMenu ul li a{
+        color: white !important;
+      }
+      .rightMenu{
+        float: right;
+        display:inline-block;
+        color:black;
+        background: black;
+      }
+      .rightMenu ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .rightMenu ul li{
+        display: inline-block;
+        padding: 20px;
+      }
+      .rightMenu ul li a{
+        color: white !important;
+      }
+      #picture{
+          padding: 200px 25px ;
+              background: url(https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/1417767_682400131777719_147463494_o.jpg?_nc_cat=0&oh=d89d8b2968955808c6f98a986d74d322&oe=5B8D192E) no-repeat center center fixed; 
+             -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+            background-size: cover;
+            text-align: center;
+           }
+      .lily{
+        width:50%
+        text-align: center; 
+        padding-top: 250px;   
+      }
+      
+      .lily h1{
+        color: black;
+        font-size: 50px;
+        font-family: optima;
+      }
+      .lily h2{
+        font-family: optima;
+        color: black;
+        font-size: 40px;
+      }
+      .lily h3{
+        font-size: 30px;
+        color: black;
+        font-family: optima;
+        font-weight: 100;
+      }
 
-	<body>
-		<h1>Hyegin Cho</h1>
-		<a href="https://www.facebook.com/hyegin.cho" target="_blank">Hyegin's Facebook page</a> &ensp;&ensp;
-		<a href="https://www.linkedin.com/in/hyegin-cho-56a2458a/" target="-blank">Hyegin's LinkedIn</a> &ensp;&ensp;  
-		<a href="./highschool.html">Hyegin's High School Experiences</a> <br/>
-		<img src = "pumpkin.jpg">
-		<h2>Student Data Analyst</h2>
-		<h2>Hello, I am Hyegin and I am a student data analyst.<br/> I am a current senior college student at UC Davis majoring in applied statisitcs. <br/> I first got into statistics because I believe numbers are beautiful.<br/> Numbers are universal and they can be understood in any country.<br/> I went to elementary school in South Korea until 2006.<br/> In 2006, I transferred to a school in American military base in Korea. <br/>I could not understand anything on the board for a while because of language transition. <br/> However, numbers were different. <br/> I excelled in math classes because it did not require me to be perfect in English. <br/> I fell in love with numbers since then. <br/> Thank you for visiting my page.</h2>
-		
-	</body>
-</head>
+      .button1{
+        display: inline-block;
+        padding: 12px 20px;
+        background: navy;
+        color: #fff;
+        cursor: pointer;
+      }
+      a{
+        font-style:none;
+        text-decoration:none;
+        color: white;
+      }
+      .button2{
+        display: inline-block;
+        padding: 10px 18px;
+        border: 2px solid #000;
+        background: navy;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      #cardi{
+        background: white;
+        text-align: center;
+        font-family: optima;
+      }
+
+      .cardi h1{
+        color: black;
+        font-size: 50px;
+        font-family: optima;
+        font-weight: 100;
+      }
+
+      .cardi p{
+        color: black;
+        font-size: 20px;
+        font-family: optima;
+        font-weight: 100;
+      }
+      .stuff img{
+        width:40%;
+        height:80%;
+        position: relative;
+        left:1%;
+        background-color: white;
+      }
+      img
+      {
+        width:80%;
+        height:70%;
+        position: relative;
+        left:10%;
+        background-color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div class="leftMenu">
+        <ul>
+          <li>
+              <a href="kids.html">Portfolio</a>
+          </li>
+          <li>
+              <a href="kids.html">Resume</a>
+          </li>
+          <li>
+              <a href="kids.html">FAQ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="rightMenu">
+        <ul>
+          <li>
+              <a href="https://www.linkedin.com/in/hyegin-cho-56a2458a/">LinkedIn</a>
+          </li>
+          <li>
+              <a href="https://www.facebook.com/hyegin.cho">Facebook</a>
+          </li>
+          <li>
+              <a href="kids.html">Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="picture">
+      <div class="lily">
+      <h1>Hyegin Cho</h1>
+      <h2>Junior Web Developer</h2>
+      <div class="button1">
+        <a href="hyegin.sephora.html">Contact Hyegin</a>
+      </div>
+      <div class="button2">Resume</div>
+      <h3>UC Davis Class of 2018</h3>
+      </div>
+    </div>
+    <div id="cardi">
+      <div class="stuff">
+        <h1>Introduction</h1>
+        <p>Hello, my name is Hyegin Cho. I am a current UC Davis senior studying statistics. When I get bored, I often code on the side. Unlike many developers who find out coding when they are young, I found out that I can code to create websites last year. Ever since then, I fell in love with the beauty of it.</p>
+      </div>
+    </div>
+    <img src = "stat.jpg">
+    <div id="cardi">
+      <div class="stuff">
+        <h1>Recent Experience</h1>
+        <p>This past tax season, I volunteered as an income tax preparer and filed taxes for individuals who generally made $54,000 or less for free. It was extremely rewarding to see people who greatly appreciated my work. I currently work as a computer room consultant where I work as front end IT helper at UC Davis. I really enjoy my campus job since I get to work with lots of technology. </p>
+      </div>
+    </div>
+    <img src = "intern.jpg">
+    <img src = "col.jpg">
+
+    <div id="cardi">
+      <div class="stuff">
+        <h1>Frequently Asked Questions</h1>
+        <p>See my FAQ for even more details.</p>
+      </div>
+    </div>
+    <img src ="questions.jpg">
+  </body>
 </html>
